@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        {
+
+        }
+
+    </style>
+<body>
+    <form action="php1.php" method="post">
+        <!--Select-->
+        <label>Qual sua formaçao</label>
+        <select name="select_ensino">
+            <option value="">Selecione uma opçao</option>
+            <option value="ensino_medio">Ensino</option>
+            <option value="superior">Superior</option>
+            <option value="pos_graduaçao">Pós</option>
+            <option value="outro">Outro</option>
+              <!--Radio-->
+            <label>Qual seu sexo></label>
+            <input type="radio" name="radio_sexo" value="homem">
+            <label>Homem</label>
+            <input type="radio" name="radio_sexo" value="mulher">
+            <label>Mulher</label>
+            <input type="radio" name="radio_sexo" value="outro">
+            <label>Outro</label>
+            <br><br>
+            <!--Checbox-->
+            <br><br>
+            <label>Selecione uma vaga para se candidatar</label>
+            <input type="checkbox" name="opcoes[]" value="checkbox1">
+            <label>Analista Frontend jr</label><br>
+            <input type="checkbox" name="opcoes[]" value="checkbox2">
+            <label>Analista Protheus Pleno</label><br>
+            <input type="checkbox" name="opcoes[]" value="checkbox3">
+            <label>Analista de testes</label><br><br><br>
+            </select>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
